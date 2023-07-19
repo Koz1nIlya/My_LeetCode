@@ -34,6 +34,5 @@ for i in range(0, len(strs), length):
 for i in list_of_words:
     for j in range(0, len(i)):
         not_permanent_list.append(i[j])
-        
+
 print(list_of_words)
-print(not_permanent_list)
